@@ -1,7 +1,4 @@
----
-title: Customization
-nav_order: 6
----
+nav_order: 1
 # Python
 -[Download Anaconda](#download-Anaconda)
 
