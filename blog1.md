@@ -1,6 +1,6 @@
 ---
 title: Blog1
-nav_order: 1
+nav_order: 2
 ---
 # Python
 -[Download Anaconda](#download-Anaconda)
