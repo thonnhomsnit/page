@@ -1,16 +1,15 @@
 remote_theme: just-the-docs/just-the-docs
+
 defaults:
   - scope:
-      path: "content" # an empty string here means all files in the project
+      path: "content" # Applies settings to all files in the "content" folder
       type: "pages"
     values:
       layout: "default"
+
 markdown: kramdown
 
-    kramdown: 
-
-      input: GFM
-
-      hard_wrap: false
-
-      math_engine: MathJax
+kramdown:
+  input: GFM
+  hard_wrap: false
+  math_engine: mathjax
