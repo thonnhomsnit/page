@@ -2,6 +2,7 @@
 title: Einstein Summation Convention
 parent: Solid Mechanics
 nav_order: 1
+math: true
 ---
 
 # **Einstein Summation Convention**
