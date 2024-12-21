@@ -7,9 +7,5 @@ defaults:
     values:
       layout: "default"
 
-markdown: kramdown
-
-kramdown:
-  input: GFM
-  hard_wrap: false
-  math_engine: mathjax
+includes:
+  - mathjax_support.html
