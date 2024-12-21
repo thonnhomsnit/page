@@ -4,9 +4,18 @@ parent: Solid Mechanics
 nav_order: 1
 math: true
 ---
-<!-- Load MathJax explicitly -->
+
+<!-- Load MathJax explicitly with delimiters -->
 <script type="text/javascript" id="MathJax-script" async
   src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script>
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      displayMath: [['$$', '$$'], ['\\[', '\\]']]
+    }
+  };
 </script>
 
 # **Einstein Summation Convention**
@@ -27,7 +36,7 @@ $$
 
 Where:
 
-- $a_i$ represents the components of the vector **a**.  
-- The index $i$ runs over the specified dimensions (e.g., \( 1, 2, 3 \) for three-dimensional space).  
+- \( a_i \) represents the components of the vector **a**.  
+- The index \( i \) runs over the specified dimensions (e.g., \( 1, 2, 3 \) for three-dimensional space).  
 
 This convention is widely used in **_continuum mechanics_**, **_solid mechanics_**, and **_tensor analysis_** to simplify and generalize expressions.
